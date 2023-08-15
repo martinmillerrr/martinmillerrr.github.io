@@ -1,0 +1,36 @@
+/* Estilos para la barra de búsqueda y resultados */
+#buscarProducto {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#botonBuscar {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#resultadoBusqueda {
+    margin-top: 10px;
+}
+
+/* Estilos para las tarjetas de productos */
+.producto-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.producto-imagen img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.producto-info {
+    flex-grow: 1;
+}
